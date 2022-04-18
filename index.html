@@ -86,9 +86,15 @@
 										<h3>News</h3>
 										
 									</header>
-									<p>
-										[Nov. 2021] Our work on debugging on reconfigurable hardware got accepted to appear at ASPLOS’22!
-									</p>
+									<li>
+										[Mar. 2022] I will join the family of the UIUC PlatformX Lab as a Ph.D. student this fall. Thanks Prof. Huang!
+									</li>
+									<li>
+										[Mar. 2022] Our work on exploiting scheduling information for efficient HLS design space exploration got accepted to appear at FCCM'22!
+									</li>
+									<li>
+										[Nov. 2021] Our work on debugging on reconfigurable hardware got accepted to appear at ASPLOS'22!
+									</li>
 								</div>
 							</section>
 
@@ -99,27 +105,28 @@
 									<section>
 										<h4>Education</h4>
 									
-											<h5>University of Michigan, Ann Arbor, US | Sept 2020 - May 2022</h5>
+											<h5>University of Michigan, Ann Arbor, US | Sept 2020 - Apr 2022</h5>
 											<p>
-												B.SE. Computer Engineering (Dual Degree) | Cumulative GPA: 4.00/4.00
+												B.SE. Computer Engineering (Dual Degree) | Cumulative GPA: 3.83/4.00
 											</p>
 											<div class="row">
 												<div class="column">
 													<span style="font-size: small; "><ul class="alt">
-														<li>Adv. Topics in Computer Architecture (In Progress)</li>
-														<li>Applied Parallel Programming with GPU (In Progress)</li>
+														<li>Parallel Computer Architecture (In progress)</li>
+														<li>Adv. Topics in Computer Architecture (A)</li>
 														<li>Intro. Computer Organization (A)</li>
 														<li>Digital Integrated Circuit (A)</li>
 														<li>Linear Spaces and Matrix Theory (A)</li>
+														<li>Computer Science Pragmatics (A+)</li>
 													</ul></span>
 												</div>
 												<div class="column">
 													<span style="font-size: small; "><ul class="alt">
-														<li>Intro. Operating System (In Progress)</li>
+														<li>Adv. Operating System (In Progress)</li>
+														<li>Applied Parallel Programming with GPU (A)</li>
 														<li>Computer Architecture (A)</li>
 														<li>Compiler Construction (A+)</li>
 														<li>Data Structure & Algorithms (A)</li>
-														<li>Computer Science Pragmatics (A+)</li>
 													</ul></span>
 												</div>
 											</div>
@@ -209,7 +216,10 @@
 											
 										</header>
 										<p>
-											(To Appear) Jiacheng Ma, Gefei Zuo, Kevin Loughlin, <b>Haoyang Zhang</b>, Andrew Quinn, Baris Kasikci, <b>"Debugging in the Brave New World of Reconfigurable Hardware"</b>, <i>International Conference on Architectural Support for Programming Languages and Operating Systems</i>, 2022.(ASPLOS '22)
+											Jiacheng Ma, Gefei Zuo, Kevin Loughlin, <b>Haoyang Zhang</b>, Andrew Quinn, Baris Kasikci, <b>"Debugging in the Brave New World of Reconfigurable Hardware"</b>, <i>International Conference on Architectural Support for Programming Languages and Operating Systems</i>, 2022.(ASPLOS '22)
+										</p>
+										<p>
+											Xingyue Qian, Jian Shi, Li Shi, <b>Haoyang Zhang</b>, Lijian Bian, Weikang Qian, <b>"Exploiting Scheduling Information for Efficient High-Level Synthesis Design Space Exploration"</b>, <i>The 30th IEEE International Symposium On Field-Programmable Custom Computing Machines</i>, 2022.(FCCM '22)
 										</p>
 									</div>
 								</section>
@@ -220,15 +230,17 @@
 									<u><h4>Research</h4></u>
 									<div class="features">
 										<article>
-											<a href="images/fpgadebug.png" class="image"><img src="images/fpgadebug.png" /></a>
+											<a href="images/asplos-poster.png" class="image"><img src="images/asplos-poster.png" /></a>
 											<div class="inner">
 												<h4>Reconfigurable Hardware Debugging</h4>
 												<ul>
+													[<a href="https://dl.acm.org/doi/10.1145/3503222.3507701">DOI</a>]
 													[<a href="https://github.com/efeslab/asplos22-hardware-debugging-artifact">GitHub repo</a>]
+													
 												</ul>
 												<p>
 													<li>Instructed by Professor <u><a href="https://web.eecs.umich.edu/~barisk/">Baris Kasikci.</a></u></li>
-													<li>To Appear on ASPLOS’22</li>
+													<li>To Appear on ASPLOS'22</li>
 													<li>Study bugs in existing FPGA designs and produce a testbed to reliably reproduce each bug. Build a novel collection of hybrid static/dynamic program analysis and monitoring tools for debugging FPGA designs.</li>
 												</p>
 											</div>
@@ -240,13 +252,12 @@
 												<p>
 													<li>Instructed by Professor <u>Todd Austin.</u></li>
 													<li>Also as course project of EECS 573.</li>
-													<li>Find a way to subvert compiler-based Spectre protections by identifying and jumping over the
-														speculation barrier code inserted by the compiler using a special partially-tagged BTB.</li>
+													<li>Find a way to subvert compiler-based LFENCE Spectre protections by identifying and jumping over the speculation barrier code inserted by the compiler, basically by exploiting the partial-tagged and partial-data BTB to conduct a special kind of intra-process, out-of-place Spectre attack.</li>
 												</p>
 											</div>
 										</article>
 										<article>
-											<a href="images/MiniHLS.png" class="image"><img src="images/MiniHLS.png" /></a>
+											<a href="images/MiniHLS2.png" class="image"><img src="images/MiniHLS2.png" /></a>
 											<div class="inner">
 												<h4>MiniHLS: A Simple High-Level Synthesis Tool</h4>
 												<p>
