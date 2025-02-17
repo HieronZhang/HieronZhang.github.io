@@ -60,11 +60,11 @@
 										
 									</header>
 									<p>
-										I'm a second year PhD student at University of Illinois Urbana-Champaign. I am advised by <u><a href="http://jianh.web.engr.illinois.edu/">Prof. Jian Huang</a></u> as a member of the <u><a href="https://platformxlab.github.io/">Systems Platform Research Group</a></u>. I obtained my Dual Bachelor's 
+										I'm a third year PhD student at University of Illinois Urbana-Champaign. I am advised by <u><a href="http://jianh.web.engr.illinois.edu/">Prof. Jian Huang</a></u> as a member of the <u><a href="https://platformxlab.github.io/">Systems Platform Research Group</a></u>. I obtained my Dual Bachelor's 
 										Degree in Computer Engineering at University of Michigan and Electrical and Computer Engineering at Shanghai Jiao Tong University.
 									</p>
 									<p>
-										I'm broadly interested in Computer Architecture and System Software. My current research focuses on building memory/storage systems and architecture for hardware accelerators and AI systems. Besides, I'm also interested in exploiting static program analysis techniques to assist hardware design, improve performance, or provide security.
+										I'm broadly interested in Computer Architecture and System Software. My current research focuses on building efficient memory/storage systems and architecture for hardware accelerators and AI systems. Besides, I'm also interested in exploiting static program analysis techniques to assist hardware design, improve performance, or provide security.
 									</p>
 									<p>
 										Links: 
@@ -90,7 +90,16 @@
 										
 									</header>
 									<li>
-										[Jul. 2023] Our work on enabling an efficient unified GPU memory and storage architecture with smart tensor migrations got accepted to appear at MICRO'23!
+										[Feb. 2025] I will present SkyByte at NVMW 2025 and HPCA 2025 at Las Vegas on March 13th 2024!
+									</li>
+									<li>
+										[Sept. 2024] Our work on architecting an efficient memory-semantic CXL-based SSD with OS and hardware co-design (SkyByte) got accepted to appear at HPCA 2025!
+									</li>
+									<li>
+										[Feb. 2024] I will present G10 at NVMW 2024 at San Diego on March 13th 2024!
+									</li>
+									<li>
+										[Jul. 2023] Our work on enabling an efficient unified GPU memory and storage architecture with smart tensor migrations (G10) got accepted to appear at MICRO'23!
 									</li>
 									<li>
 										[Aug. 2022] Our work on scheduling information-guided efficient HLS design space exploration got accepted to appear at ICCD'22!
@@ -104,12 +113,12 @@
 									<li>
 										[May 2022] I graduated from University of Michigan!
 									</li>
-									<li>
+									<!-- <li>
 										[Mar. 2022] I will join the family of the UIUC PlatformX Lab as a Ph.D. student this fall. Thanks Prof. Huang!
 									</li>
 									<li>
 										[Nov. 2021] Our work on debugging on reconfigurable hardware got accepted to appear at ASPLOS'22!
-									</li>
+									</li> -->
 								</div>
 							</section>
 
@@ -202,6 +211,9 @@
 											
 										</header>
 										<p>
+											<b>Haoyang Zhang*</b>, Yuqi Xue*, Yirui Eric Zhou, Shaobo Li, Jian Huang, <b>"SkyByte: Architecting an Efficient Memory-Semantic CXL-based SSD with OS and Hardware Co-design"</b>, <i>To Appear in 2025 IEEE International Symposium on High-Performance Computer Architecture</i>. (<b>HPCA '25</b>)
+										</p>
+										<p>
 											<b>Haoyang Zhang*</b>, Yirui Eric Zhou*, Yuqi Xue, Yiqi Liu, Jian Huang, <b>"G10: Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations"</b>, <i>To Appear in IEEE/ACM 56th International Symposium on Microarchitecture</i>. (<b>MICRO '23</b>)
 										</p>
 										<p>
@@ -219,17 +231,34 @@
 									<u><h4>Research</h4></u>
 									<div class="features">
 										<article>
+											<a href="images/skybyte_design.png" class="image"><img src="images/skybyte_design.png" /></a>
+											<div class="inner">
+												<h4>SkyByte: A Holistic Approach to Build Efficient CXL-SSDs</h4>
+												<ul>
+													[<a href="https://github.com/platformxlab/skybyte">Artifact</a>]
+													[<a href="https://arxiv.org/abs/2501.10682">Preprint</a>]
+												</ul>
+												<p>
+													<li>Instructed by Professor <u><a href="http://jianh.web.engr.illinois.edu/">Jian Huang.</a></u></li>
+													<li>To Appear on HPCA'25</li>
+													<li>The CXL-based solid-state drive (CXL-SSD) provides a promising approach towards scaling the main memory capacity at low cost. 
+														However, the CXL-SSD faces performance challenges due to the long flash access latency and unpredictable events such as garbage collection in the SSD device, stalling the host processor and wasting compute cycles.
+													    In this work, we present an efficient CXL-based SSD that employs a holistic approach to address the aforementioned challenges by co-designing the host operating system (OS) and SSD controller.</li>
+												</p>
+											</div>
+										</article>
+										<article>
 											<a href="images/g10.png" class="image"><img src="images/g10.png" /></a>
 											<div class="inner">
 												<h4>G10: Breaking GPU Memmory Wall with Smart Tensor Migrations</h4>
 												<ul>
 													[<a href="https://github.com/platformxlab/G10">Artifact</a>]
-													[<a href="https://arxiv.org/abs/2310.09443">Preprint</a>]
+													[<a href="https://dl.acm.org/doi/10.1145/3613424.3614309">DOI</a>]
 													[<a href="https://uillinoisedu-my.sharepoint.com/:p:/g/personal/zhang402_illinois_edu/EQYpDUtwx1xCgAdhiMvFbx8BZnJfR5KGVxBCDAb-oUfVdQ?e=XLcumb">Slides</a>]
 												</ul>
 												<p>
 													<li>Instructed by Professor <u><a href="http://jianh.web.engr.illinois.edu/">Jian Huang.</a></u></li>
-													<li>To Appear on MICRO'23</li>
+													<li>Published on MICRO'23</li>
 													<li>We present a unified GPU memory and storage architecture driven by the fact that DNN workloads are highly predictable. G10 integrates the host memory, 
 														GPU memory, and flash memory into a unified memory space, to scale the GPU memory capacity while 
 														enabling transparent data migrations. G10 utilizes compiler techniques to characterize the tensor behaviors in DNN workloads to schedule data migrations in advance by considering the available bandwidth of flash memory, host memory, and interconnections.</li>
