@@ -1,0 +1,4 @@
+# add `lastname: - firstname: [..] url: ..` entries here to link co-authors' names
+"zhang":
+  - firstname: ["Minjia"]
+    url: https://minjiazhang.github.io/

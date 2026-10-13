@@ -1,0 +1,38 @@
+# colored venue badges next to each paper (keyed by the `abbr` field in _bibliography/papers.bib)
+"NeurIPS'25":
+  url: https://neurips.cc/Conferences/2025
+  color: "#1a4fa0"
+"HPCA'25":
+  url: https://hpca-conf.org/2025/
+  color: "#1a4fa0"
+"MICRO'23":
+  url: https://microarch.org/micro56/
+  color: "#1a4fa0"
+"ICCD'22":
+  url: https://www.iccd-conf.com/
+  color: "#1a4fa0"
+"ASPLOS'22":
+  url: https://asplos-conference.org/2022/
+  color: "#1a4fa0"
+"TCAD'25":
+  url: https://ieee-ceda.org/publication/tcad
+  color: "#00796b"
+
+"NeurIPS’25":
+  url: https://neurips.cc/Conferences/2025
+  color: "#1a4fa0"
+"HPCA’25":
+  url: https://hpca-conf.org/2025/
+  color: "#1a4fa0"
+"MICRO’23":
+  url: https://microarch.org/micro56/
+  color: "#1a4fa0"
+"ICCD’22":
+  url: https://www.iccd-conf.com/
+  color: "#1a4fa0"
+"ASPLOS’22":
+  url: https://asplos-conference.org/2022/
+  color: "#1a4fa0"
+"TCAD’25":
+  url: https://ieee-ceda.org/publication/tcad
+  color: "#00796b"

@@ -1,0 +1,86 @@
+---
+---
+
+@inproceedings{yuan2025teraio,
+  abbr        = {NeurIPS'25},
+  bibtex_show = {true},
+  title       = {Cost-Efficient {LLM} Training with Lifetime-Aware Tensor Offloading via {GPUDirect} Storage},
+  author      = {Yuan*, Ziqi and Zhang*, Haoyang and Zhou*, Yirui Eric and Mohan, Apoorve and Chung, I-Hsin and Seelam, Seetharami and Huang, Jian},
+  booktitle   = {Conference on Neural Information Processing Systems (NeurIPS)},
+  year        = {2025},
+  arxiv       = {2506.06472},
+  preview     = {teraio.png},
+  selected    = {true},
+  annotation  = {* Equal contribution},
+  abstract    = {A lifetime-aware tensor offloading framework that extends GPU memory with low-cost PCIe SSDs for multi-GPU LLM training. TeraIO profiles tensor lifetimes in the first training iterations, plans offloading and prefetching around them, and moves tensors directly between GPUs and SSDs via GPUDirect Storage. It improves training performance by 1.47x on average over ZeRO-Offload and ZeRO-Infinity, reaching 80.7% of the ideal performance with unlimited GPU memory.}
+}
+
+@inproceedings{zhang2025skybyte,
+  abbr        = {HPCA'25},
+  bibtex_show = {true},
+  title       = {{SkyByte}: Architecting an Efficient Memory-Semantic {CXL}-based {SSD} with {OS} and Hardware Co-design},
+  author      = {Zhang*, Haoyang and Xue*, Yuqi and Zhou, Yirui Eric and Li, Shaobo and Huang, Jian},
+  booktitle   = {IEEE International Symposium on High-Performance Computer Architecture (HPCA)},
+  year        = {2025},
+  html        = {https://ieeexplore.ieee.org/document/10946741},
+  arxiv       = {2501.10682},
+  code        = {https://github.com/platformxlab/skybyte},
+  slides      = {https://hieronzhang.github.io/files/SkyByte-talk.pdf},
+  preview     = {skybyte.png},
+  selected    = {true},
+  annotation  = {* Equal contribution},
+  abstract    = {A CXL-based SSD that co-designs the host OS and the SSD controller: opportunistic context switches hide long flash accesses, the SSD DRAM is organized as a cacheline-level write log plus a page-level data cache, and adaptive page migration promotes hot pages to host memory. SkyByte outperforms current CXL-SSDs by 6.11x and cuts flash I/O traffic by 23.08x on average, reaching 75% of the performance of an ideal system with unlimited host DRAM.}
+}
+
+@inproceedings{zhang2023g10,
+  abbr        = {MICRO'23},
+  bibtex_show = {true},
+  title       = {{G10}: Enabling An Efficient Unified {GPU} Memory and Storage Architecture with Smart Tensor Migrations},
+  author      = {Zhang*, Haoyang and Zhou*, Yirui Eric and Xue, Yuqi and Liu, Yiqi and Huang, Jian},
+  booktitle   = {IEEE/ACM International Symposium on Microarchitecture (MICRO)},
+  year        = {2023},
+  html        = {https://dl.acm.org/doi/10.1145/3613424.3614309},
+  code        = {https://github.com/platformxlab/G10},
+  slides      = {https://hieronzhang.github.io/files/G10-talk-nvmw.pdf},
+  preview     = {g10.png},
+  selected    = {true},
+  annotation  = {* Equal contribution},
+  abstract    = {A unified GPU memory and storage architecture that merges host memory, GPU memory, and flash into one address space. Because DNN workloads are highly predictable, G10 uses compiler analysis to characterize tensor behavior and schedules data migrations ahead of time, hiding transfer costs. G10 outperforms state-of-the-art GPU memory solutions by up to 1.75x and reaches 90.3% of the performance of an ideal system with unlimited GPU memory.}
+}
+
+@article{chen2025xlic,
+  abbr        = {TCAD'25},
+  bibtex_show = {true},
+  title       = {Exploring Efficient Hardware Accelerator for Learning-Based Image Compression},
+  author      = {Chen, Chen and Zhang, Haoyang and Guo, Kaicheng and Yu, Xingzi and Qiu, Weidong and Qi, Zhengwei and Guan, Haibing},
+  journal     = {IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)},
+  volume      = {44},
+  number      = {6},
+  year        = {2025},
+  html        = {https://doi.org/10.1109/TCAD.2024.3515856},
+  code        = {https://github.com/sjtu-tcloud/X-LIC},
+  preview     = {xlic.png}
+}
+
+@inproceedings{ma2022fpgadebug,
+  abbr        = {ASPLOS'22},
+  bibtex_show = {true},
+  title       = {Debugging in the Brave New World of Reconfigurable Hardware},
+  author      = {Ma, Jiacheng and Zuo, Gefei and Loughlin, Kevin and Zhang, Haoyang and Quinn, Andrew and Kasikci, Baris},
+  booktitle   = {ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},
+  year        = {2022},
+  html        = {https://dl.acm.org/doi/10.1145/3503222.3507701},
+  code        = {https://github.com/efeslab/asplos22-hardware-debugging-artifact},
+  preview     = {fpgadebug.png}
+}
+
+@inproceedings{qian2022hls,
+  abbr        = {ICCD'22},
+  bibtex_show = {true},
+  title       = {Scheduling Information-Guided Efficient High-Level Synthesis Design Space Exploration},
+  author      = {Qian, Xingyue and Shi, Jian and Shi, Li and Zhang, Haoyang and Bian, Lijian and Qian, Weikang},
+  booktitle   = {IEEE International Conference on Computer Design (ICCD)},
+  year        = {2022},
+  html        = {https://ieeexplore.ieee.org/document/9978281},
+  preview     = {minihls.png}
+}
