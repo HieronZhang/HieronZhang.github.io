@@ -1,6 +1,19 @@
 ---
 ---
 
+@inproceedings{ting2027superguard,
+  abbr        = {HPCA'27},
+  bibtex_show = {true},
+  title       = {Where Did the {GPU} Time Go? Uncovering and Controlling Hidden Interference in {LLM} Serving and Training on Superchips},
+  author      = {Ting*, Hsu-Tzu and Zhang*, Haoyang and Lian, Xinyu and Zhang, Minjia},
+  booktitle   = {IEEE International Symposium on High-Performance Computer Architecture (HPCA)},
+  year        = {2027},
+  note        = {To appear},
+  selected    = {true},
+  annotation  = {* Equal contribution},
+  abstract    = {On tightly coupled CPU-GPU superchips, CPU-GPU co-execution workloads can leave the GPU idle even when GPU compute, GPU memory bandwidth, and the CPU-GPU interconnect are unsaturated. Through controlled experiments and microarchitectural analysis, this work traces these stalls to CPU-side resource contention that delays host-driven kernel dispatch. SuperGuard is a lightweight runtime that monitors dispatch efficiency and adjusts CPU-side resource allocation (MPAM-based LLC partitioning) to protect GPU progress. Across RAG-based inference, agentic pipelines, and LLM training with CPU offloading on NVIDIA GH200, it improves end-to-end performance by up to 2.1x and reaches 96% of contention-free performance on average.}
+}
+
 @inproceedings{yuan2025teraio,
   abbr        = {NeurIPS'25},
   bibtex_show = {true},

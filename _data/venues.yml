@@ -2,6 +2,9 @@
 "NeurIPS'25":
   url: https://neurips.cc/Conferences/2025
   color: "#1a4fa0"
+"HPCA'27":
+  url: https://hpca-conf.org/2027/
+  color: "#1a4fa0"
 "HPCA'25":
   url: https://hpca-conf.org/2025/
   color: "#1a4fa0"
@@ -20,6 +23,9 @@
 
 "NeurIPS’25":
   url: https://neurips.cc/Conferences/2025
+  color: "#1a4fa0"
+"HPCA’27":
+  url: https://hpca-conf.org/2027/
   color: "#1a4fa0"
 "HPCA’25":
   url: https://hpca-conf.org/2025/

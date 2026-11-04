@@ -35,7 +35,7 @@ I am a PhD candidate at the University of Illinois Urbana-Champaign, advised by 
 
 {% include selected_papers.liquid %}
 
-Two more papers on ML systems are under review; details on request. See all [publications](/publications/).
+One more paper on ML systems is under review; details on request. See all [publications](/publications/).
 
 ## Open Source
 
