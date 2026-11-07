@@ -47,14 +47,46 @@ I contributed the analytical cost model to torch-spyre ([PR #3572](https://githu
 
 ## Industry Experience
 
-<div class="row mb-2"><div class="col-sm-3 text-muted">May--Aug 2026</div><div class="col-sm-9"><b>IBM Research</b>, Yorktown Heights, NY. Research Intern, Hybrid Cloud (mentor: David Grove). Built an analytical cost model as a compiler pass for the Spyre AI accelerator in open-source <a href="https://github.com/torch-spyre/torch-spyre/pull/3572">torch-spyre</a>.</div></div>
-<div class="row mb-2"><div class="col-sm-3 text-muted">Jul--Aug 2021</div><div class="col-sm-9"><b>T-Head Division, Alibaba Cloud</b>, Hangzhou, China. Software R&amp;D Intern. Optimized the JPEG library for RISC-V vector processors.</div></div>
+<div class="row mb-3">
+  <div class="col-sm-3 text-muted">May–Aug 2026</div>
+  <div class="col-sm-9">
+    <div><b>IBM Research</b>, Yorktown Heights, NY</div>
+    <div><i>Research Intern, Hybrid Cloud</i> · Mentor: David Grove · Manager: Olivier Tardieu</div>
+    <div>Built an analytical cost model as a compiler pass for the Spyre AI accelerator in open-source <a href="https://github.com/torch-spyre/torch-spyre/pull/3572">torch-spyre</a>.</div>
+  </div>
+</div>
+<div class="row mb-3">
+  <div class="col-sm-3 text-muted">Jul–Aug 2021</div>
+  <div class="col-sm-9">
+    <div><b>T-Head Division, Alibaba Cloud</b>, Hangzhou, China</div>
+    <div><i>Software R&amp;D Intern</i></div>
+    <div>Optimized the JPEG library for RISC-V vector processors.</div>
+  </div>
+</div>
 
 ## Education
 
-<div class="row mb-2"><div class="col-sm-3 text-muted">2022--2028 (expected)</div><div class="col-sm-9"><b>University of Illinois Urbana-Champaign</b>. Ph.D., Computer Science. Advisor: <a href="https://minjiazhang.github.io/">Prof. Minjia Zhang</a>.</div></div>
-<div class="row mb-2"><div class="col-sm-3 text-muted">2020--2022</div><div class="col-sm-9"><b>University of Michigan</b>. B.S.E., Computer Engineering (dual degree).</div></div>
-<div class="row mb-2"><div class="col-sm-3 text-muted">2018--2022</div><div class="col-sm-9"><b>Shanghai Jiao Tong University</b>. B.S.E., Electrical and Computer Engineering (dual degree).</div></div>
+<div class="row mb-3">
+  <div class="col-sm-3 text-muted">2022–2028 (expected)</div>
+  <div class="col-sm-9">
+    <div><b>University of Illinois Urbana-Champaign</b></div>
+    <div>Ph.D., Computer Science · Advisor: <a href="https://minjiazhang.github.io/">Prof. Minjia Zhang</a></div>
+  </div>
+</div>
+<div class="row mb-3">
+  <div class="col-sm-3 text-muted">2020–2022</div>
+  <div class="col-sm-9">
+    <div><b>University of Michigan</b></div>
+    <div>B.S.E., Computer Engineering (dual degree)</div>
+  </div>
+</div>
+<div class="row mb-3">
+  <div class="col-sm-3 text-muted">2018–2022</div>
+  <div class="col-sm-9">
+    <div><b>Shanghai Jiao Tong University</b></div>
+    <div>B.S.E., Electrical and Computer Engineering (dual degree)</div>
+  </div>
+</div>
 
 ## Talks
 

@@ -38,6 +38,8 @@
             {% if artifact_badge %}
               <img
                 class="artifact-badge"
+                width="27"
+                height="27"
                 src="{{ artifact_badge.image | prepend: '/assets/img/badges/' | relative_url }}"
                 alt="{{ artifact_badge.title }}"
                 title="{{ artifact_badge.title }}"
