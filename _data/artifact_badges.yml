@@ -1,0 +1,23 @@
+# artifact-evaluation badges shown under the venue badge (see _layouts/bib.liquid)
+# use the keys in the `artifacts` field of _bibliography/papers.bib, e.g. artifacts = {acm-available, acm-functional}
+acm-available:
+  image: acm-available.png
+  title: "ACM Artifacts Available"
+acm-functional:
+  image: acm-functional.png
+  title: "ACM Artifacts Evaluated – Functional"
+acm-reusable:
+  image: acm-reusable.png
+  title: "ACM Artifacts Evaluated – Reusable"
+acm-reproduced:
+  image: acm-reproduced.png
+  title: "ACM Results Reproduced"
+ieee-oro:
+  image: ieee-oro.png
+  title: "IEEE Open Research Objects (ORO)"
+ieee-ror:
+  image: ieee-ror.png
+  title: "IEEE Research Objects Reviewed (ROR)"
+ieee-ror-r:
+  image: ieee-ror-r.png
+  title: "IEEE Results Reproduced (ROR-R)"

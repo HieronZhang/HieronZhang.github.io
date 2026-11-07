@@ -206,3 +206,28 @@ html[data-theme-setting="light"] {
 #light-toggle:hover .fa-half-sun-moon::after {
   color: var(--global-theme-color);
 }
+
+/*******************************************************************************
+ * Site customizations
+ ******************************************************************************/
+
+// Larger base font: the theme default (16px Roboto Light) reads small.
+// Everything sized in rem scales with it.
+html {
+  font-size: 18px;
+}
+
+// Artifact-evaluation badges under the venue badge (see _layouts/bib.liquid)
+.artifact-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3px;
+  margin: 6px 0 8px;
+}
+
+.artifact-badges .artifact-badge {
+  width: 27px;
+  height: 27px;
+  object-fit: contain;
+}
