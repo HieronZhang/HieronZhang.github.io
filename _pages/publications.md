@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: One further paper on ML systems is under review (details on request). * denotes equal contribution.
+description: "* denotes equal contribution."
 nav: true
 nav_order: 2
 ---
